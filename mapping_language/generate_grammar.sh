@@ -39,8 +39,8 @@ function generate_grammar() {
    ./parser/Whistle.g4 \
    -o ./
 
-   rm ./parser/*.tokens
-   rm ./parser/*.interp
+   rm -f ./parser/*.tokens
+   rm -f ./parser/*.interp
 
 }
 
